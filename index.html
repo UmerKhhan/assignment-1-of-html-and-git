@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -12,102 +13,212 @@
     <header>this is header
         <nav>this is nav tag</nav>
     </header>
+    <hr>
 
-    <div>this is div tag</div>
-    <aside>this is side bar</aside>
+    <div>this is div tag</div><hr>
+    <aside>this is side bar</aside><hr>
     <main>
         <article>
+            <fieldset> <b>Headings</b> 
 
-            <h1>hello this is heading 1</h1>
-            <h2>hello this is heading 2</h2>
-            <h3>hello this is heading 3</h3>
-            <h4>hello this is heading 4</h4>
-            <h5>hello this is heading 5</h5>
-            <h6>hello this is heading 6</h6>
+                <h1>hello this is heading 1</h1>
+                <h2>hello this is heading 2</h2>
+                <h3>hello this is heading 3</h3>
+                <h4>hello this is heading 4</h4>
+                <h5>hello this is heading 5</h5>
+                <h6>hello this is heading 6</h6>
+            </fieldset>
+            <hr>
+            <fieldset> <b>Paragraph and text interacting tags</b>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque animi distinctio ad in ipsum
+                    aspernatur
+                    ducimus, hic, voluptatibus optio quidem quisquam ratione voluptas ex nostrum pariatur, mollitia
+                    similique! Eligendi, provident.</p>
+
+                <b>bold tag</b><br>
+                <i>italic tag</i><br>
+                <strong>strong tag</strong><br>
+                <em>emphasize tag</em><br>
+            </fieldset><hr>
+            <fieldset><b>Anchor tag</b> <br><br>
+
+                <a href="https://www.google.com/" target="_blank">google</a><br>
+            </fieldset>
 <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque animi distinctio ad in ipsum aspernatur
-                ducimus, hic, voluptatibus optio quidem quisquam ratione voluptas ex nostrum pariatur, mollitia
-                similique! Eligendi, provident.</p>
-
-            <b>bold tag</b><br>
-            <i>italic tag</i><br>
-            <strong>strong tag</strong><br>
-            <em>emphasize tag</em><br>
-
-            <a href="https://www.google.com/" target="_blank">google</a>
+            <fieldset> <b>listing tags</b>
 
 
+                <ul>
+                    <li>apple</li>
+                    <li>mango</li>
+                    <li>banana</li>
+                    <li>avacado</li>
+                </ul>
+                <ol>
+                    <li>apple</li>
+                    <li>mango</li>
+                    <li>banana</li>
+                    <li>avacado</li>
+                </ol>
+            </fieldset>
 
-            <ul>
-                <li>apple</li>
-                <li>mango</li>
-                <li>banana</li>
-                <li>avacado</li>
-            </ul>
-            <ol>
-                <li>apple</li>
-                <li>mango</li>
-                <li>banana</li>
-                <li>avacado</li>
-            </ol>
         </article>
-        <table border="1">
-            <thead>
-                <tr>
-                    <td colspan="6">Students Marksheet</td>
-                </tr>
-            </thead>
-            <tbody>
+    <hr>    <fieldset>
+            <b>table tag</b>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <td colspan="6">Students Marksheet</td>
+                    </tr>
+                </thead>
+                <tbody>
 
-                <tr>
-                    <td>Name</td>
-                    <td>English</td>
-                    <td>Urdu</td>
-                    <td>Maths</td>
-                    <td>Science</td>
-                    <td>Pakistan studies</td>
-                </tr>
-                <tr>
-                    <td>Rafay</td>
-                    <td>41</td>
-                    <td>32</td>
-                    <td>64</td>
-                    <td>68</td>
-                    <td>39</td>
-                </tr>
-                <tr>
-                    <td>Ali</td>
-                    <td>75</td>
-                    <td>95</td>
-                    <td>79</td>
-                    <td>67</td>
-                    <td>62</td>
-                </tr>
-                <tr>
-                    <td>Bilal</td>
-                    <td>72</td>
-                    <td>48</td>
-                    <td>73</td>
-                    <td>71</td>
-                    <td>76</td>
-                </tr>
-            </tbody>
-<tfoot>
-    <tr><td colspan="6">All results are final</td></tr>
-</tfoot>
+                    <tr>
+                        <td>Name</td>
+                        <td>English</td>
+                        <td>Urdu</td>
+                        <td>Maths</td>
+                        <td>Science</td>
+                        <td>Pakistan studies</td>
+                    </tr>
+                    <tr>
+                        <td>Rafay</td>
+                        <td>41</td>
+                        <td>32</td>
+                        <td>64</td>
+                        <td>68</td>
+                        <td>39</td>
+                    </tr>
+                    <tr>
+                        <td>Ali</td>
+                        <td>75</td>
+                        <td>95</td>
+                        <td>79</td>
+                        <td>67</td>
+                        <td>62</td>
+                    </tr>
+                    <tr>
+                        <td>Bilal</td>
+                        <td>72</td>
+                        <td>48</td>
+                        <td>73</td>
+                        <td>71</td>
+                        <td>76</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="6">All results are final</td>
+                    </tr>
+                </tfoot>
 
 
 
-        </table>
+            </table>
+        </fieldset>
+        <hr><fieldset><b>Form</b>
+            <hr>
+
+            <form onsubmit="">
+
+                <fieldset>
+                    <label for="">Name : </label> <input type="text" placeholder="Enter your name">
+
+                    <div> <label for="">Email:</label> <input type="email" value="abc@gmail.com"></div>
+                    <div> <label for="password">Password:<input type="password"></label>
+                        <label for=""> Picture </label> <input type="file" accept="i"><br>
+                </fieldset>
+                <hr>
+
+                <fieldset>
+                    <label for=""> time : </label><input type="time">
+                    <label for=""> date : </label><input type="date"><br>
+                    <label for=""> month : </label> <input type="month">
+                    <label for=""> week : </label> <input type="week"><br>
+                </fieldset>
+                <hr>
+                <fieldset>
+                    <label for=""> Age </label> <input type="range">
+                    <label for=""> color : </label> <input type="color"><br>
+                    <label for=""> search : </label> <input type="search">
+                    <label for=""> number : </label> <input type="number"><br>
+                </fieldset>
+                <hr>
+                <fieldset>
+                    <h3>Select gender</h3>
+                    <div> <input type="radio" id="male" value="male" name="gender"><label for="male">male:</label></div>
+                    <div> <input type="radio" id="female" value="female" name="gender"><label
+                            for="female">female:</label> </div>
+                    <div> <input type="checkbox" required id="male" value="male" name="gender"><label
+                            for="male">male:</label></div>
+                    <div> <input type="checkbox" required id="male" value="female" name="gender"><label
+                            for="female">female:</label> </div>
+                </fieldset>
+                <hr>
+                <select name=" select your country" id="country">
+
+                
+                        <option value="" id="country">Select your country </option>
+                        <option value="paksitan" id="country">Pakistan </option>
+                        <option value="India" id="country">India</option>
+                        <option value="Srilanka" id="country">Srilanka</option>
+                        <option value="China" id="country">China</option>
+                        <option value="Iraq" id="country">Iraq</option>
+                        <option value="Iran" id="country">Iran</option>
+                        <option value="Afghanistan" id="country">Afghanistan</option>
+
+                </select>
+
+                <hr>
 
 
+                <button type="reset">Submit</button>
+
+            </form>
+        </fieldset>
+        <hr>
 
     </main>
-<footer>this is footer</footer>
+    <fieldset>
 
-<img src="img.jpg" alt="" >
+        <h2>Iframe tag</h2>
+        <iframe src="https://www.wikipedia.org" frameborder="1" width="1200" height="800"></iframe>
+        <hr>
+    
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Z_1Q0XB4X0Y?si=_NyEz_6PTAEpgvYM"
+            title="YouTube video player" frameborder="5"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+            
+        </fieldset>
+            
+            
+        
+    <hr>
+    <fieldset>
+        
+        <video width="200" height="400" controls>
+            <source src="pexels-tima-miroshnichenko-5377268 (2160p).mp4" type="video/mp4">
+            </video>
+        
+        </fieldset>
+<hr>
+<fieldset>
+    
+    <audio controls>
+        <source src="epic-background-piano-music-for-video-vlog-advertising-promo-181371.mp3" type="audio/mp3">
+        </audio>
+    </fieldset>
+    <hr>
+    <fieldset>
+        
+        <img src="images.jpeg" alt="" width="350" height="220">
+    </fieldset>
+    <footer>this is footer</footer>
 </body>
 
-</html>
+</html
 
 
